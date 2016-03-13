@@ -1,0 +1,106 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        03/13/2016  16:28:10  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE seven.obj TO Lab1 RAMSIZE (256) CODE (0X00-0X32, 0X36-0X3FFD) XDATA (0X00-0X32, 0X36-0X3D00)
+
+
+INPUT MODULES INCLUDED:
+  seven.obj (SEVEN)
+
+
+LINK MAP OF MODULE:  Lab1 (SEVEN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     042AH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  Lab1 (SEVEN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        SEVEN
+  D:00ABH         SYMBOL        ADCDH
+  D:00AAH         SYMBOL        ADTKDT
+  D:00F8H         SYMBOL        AUX1
+  D:00F7H         SYMBOL        CFGWL
+  D:00AEH         SYMBOL        CHSEL
+  D:00D8H         SYMBOL        CLKCON
+  C:0423H         SYMBOL        D1
+  C:0421H         SYMBOL        DELAY_1S
+  D:00A9H         SYMBOL        INTE1
+  D:0095H         SYMBOL        INTFLG
+  D:00BAH         SYMBOL        IP1
+  D:00BBH         SYMBOL        IP1H
+  D:00B9H         SYMBOL        IPH
+  D:00B1H         SYMBOL        LCDCON
+  D:00B2H         SYMBOL        LCDCON2
+  D:00B3H         SYMBOL        LCDPIN
+  C:0417H         SYMBOL        LED_TABLE
+  D:0094H         SYMBOL        OPTION
+  D:0080H         SYMBOL        P0
+  D:0091H         SYMBOL        P0OE
+  D:00A3H         SYMBOL        P1MODH
+  D:00A2H         SYMBOL        P1MODL
+  D:0096H         SYMBOL        P1WKUP
+  D:00A0H         SYMBOL        P2
+  D:0093H         SYMBOL        P2OE
+  D:00A5H         SYMBOL        P3MODH
+  D:00A4H         SYMBOL        P3MODL
+  D:00E8H         SYMBOL        P4
+  D:0092H         SYMBOL        P4MOD
+  D:00C0H         SYMBOL        P5
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/13/2016  16:28:10  PAGE 2
+
+
+  D:00A6H         SYMBOL        PINMOD
+  D:009BH         SYMBOL        PWM0DH
+  D:009AH         SYMBOL        PWM0PRD
+  D:009DH         SYMBOL        PWM1DH
+  D:009CH         SYMBOL        PWM1PRD
+  D:00A1H         SYMBOL        PWMCON
+  D:00CBH         SYMBOL        RCP2H
+  D:00CAH         SYMBOL        RCP2L
+  C:040FH         SYMBOL        S1
+  D:00BCH         SYMBOL        SPCON
+  D:00BEH         SYMBOL        SPDAT
+  D:00BDH         SYMBOL        SPSTA
+  C:0400H         SYMBOL        START
+  D:0097H         SYMBOL        SWCMD
+  D:00C8H         SYMBOL        T2CON
+  D:00CDH         SYMBOL        TH2
+  D:00ADH         SYMBOL        TKCON
+  D:00ACH         SYMBOL        TKDL
+  D:00CCH         SYMBOL        TL2
+  C:0000H         LINE#         5
+  C:0400H         LINE#         8
+  C:0403H         LINE#         9
+  C:0406H         LINE#         10
+  C:0409H         LINE#         11
+  C:040CH         LINE#         13
+  C:040FH         LINE#         16
+  C:0411H         LINE#         17
+  C:0412H         LINE#         19
+  C:0414H         LINE#         22
+  C:0421H         LINE#         41
+  C:0423H         LINE#         43
+  C:0425H         LINE#         44
+  C:0427H         LINE#         45
+  C:0429H         LINE#         46
+  -------         ENDMOD        SEVEN
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 002CH BYTE ( 2%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=1066
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

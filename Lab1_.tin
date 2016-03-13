@@ -1,0 +1,6 @@
+[Project Data state]
+SYSCFG = 00 90 
+FLASH_E = 1
+FLASH_P = 1
+FLASH_V = 1
+ICE_MESS = 0
